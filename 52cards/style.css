@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.color{
+    margin: 2%;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.colorname{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+    font-size: medium;
+    color: #fff;
+}
+.color img {
+    width: 100%; /* Make the image fill the entire width of the div */
+    height: 100%; /* Make the image fill the entire height of the div */
+    object-fit:contain; /* Maintain aspect ratio and cover the entire div */
+}
